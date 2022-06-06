@@ -5,13 +5,13 @@ Step 4 - Simple React Native Library
 ## Installation
 
 ```sh
-npm install simple-react-native-library
+npm install simple-react-native-library2
 ```
 
 ## Usage
 
 ```js
-import { launchSDK } from "simple-react-native-library";
+import { launchSDK } from "simple-react-native-library2";
 
 // ...
 
