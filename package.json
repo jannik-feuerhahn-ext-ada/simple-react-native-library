@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/adahealth/mobile-sdk-playground",
-  "author": "Jannik Feuerhahn <jannik.feuerhahn@ext.ada.com> (https://github.ada.com/ext-engineering/mobile-sdk)",
+  "repository": "https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library",
+  "author": "Jannik Feuerhahn <jannik.feuerhahn@ext.ada.com> (https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adahealth/mobile-sdk-playground/issues"
+    "url": "https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library/issues"
   },
-  "homepage": "https://github.com/adahealth/mobile-sdk-playground#readme",
+  "homepage": "https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
