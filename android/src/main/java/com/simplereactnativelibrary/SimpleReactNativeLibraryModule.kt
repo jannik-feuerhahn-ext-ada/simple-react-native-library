@@ -1,9 +1,8 @@
 package com.simplereactnativelibrary
 
-import com.facebook.react.bridge.ReactApplicationContext
-import com.facebook.react.bridge.ReactContextBaseJavaModule
-import com.facebook.react.bridge.ReactMethod
-import com.facebook.react.bridge.Promise
+import com.facebook.react.bridge.*
+
+import android.util.Log
 
 class SimpleReactNativeLibraryModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {
 
@@ -27,7 +26,7 @@ class SimpleReactNativeLibraryModule(reactContext: ReactApplicationContext) : Re
       // reactApplicationContext.startActivity(intent)
 
       val msg = "Launched SDK with url: $url"
-      Log.d(AdaSDKModule::class.simpleName, msg)
+      Log.d(SimpleReactNativeLibraryModule::class.simpleName, msg)
       callback.invoke(null, msg)
     
     }
