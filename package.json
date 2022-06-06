@@ -1,6 +1,6 @@
 {
   "name": "simple-react-native-library2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Step 4 - Simple React Native Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
