@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-native-library",
+  "name": "simple-react-native-library2",
   "version": "0.1.1",
   "description": "Step 4 - Simple React Native Library",
   "main": "lib/commonjs/index",
@@ -36,7 +36,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library",
+  "repository": "https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library2",
   "author": "Jannik Feuerhahn <jannik.feuerhahn@ext.ada.com> (https://github.com/jannik-feuerhahn-ext-ada/simple-react-native-library)",
   "license": "MIT",
   "bugs": {
