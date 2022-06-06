@@ -17,6 +17,6 @@ const SimpleReactNativeLibrary = NativeModules.SimpleReactNativeLibrary
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return SimpleReactNativeLibrary.multiply(a, b);
+export function launchSDK(url: string, callback: Function): void {
+  return SimpleReactNativeLibrary.launchSDK(url, callback);
 }

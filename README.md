@@ -11,11 +11,13 @@ npm install simple-react-native-library
 ## Usage
 
 ```js
-import { multiply } from "simple-react-native-library";
+import { launchSDK } from "simple-react-native-library";
 
 // ...
 
-const result = await multiply(3, 7);
+launchSDK("https://demo-assessment.consumer-stg.dev.ada.com/", (error, msg) => {
+  console.log(msg)
+});
 ```
 
 ## Contributing

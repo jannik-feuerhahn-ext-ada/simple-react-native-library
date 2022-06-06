@@ -2,8 +2,6 @@
 
 @interface RCT_EXTERN_MODULE(SimpleReactNativeLibrary, NSObject)
 
-RCT_EXTERN_METHOD(multiply:(float)a withB:(float)b
-                 withResolver:(RCTPromiseResolveBlock)resolve
-                 withRejecter:(RCTPromiseRejectBlock)reject)
+RCT_EXTERN_METHOD(launchSDK:(NSString)url callback:(RCTResponseSenderBlock)callback)
 
 @end

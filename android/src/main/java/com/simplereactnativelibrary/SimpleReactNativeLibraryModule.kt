@@ -14,9 +14,21 @@ class SimpleReactNativeLibraryModule(reactContext: ReactApplicationContext) : Re
     // Example method
     // See https://reactnative.dev/docs/native-modules-android
     @ReactMethod
-    fun multiply(a: Int, b: Int, promise: Promise) {
+    fun launchSDK(url: String, callback: Callback) {
     
-      promise.resolve(a * b)
+      // val intent = Intent(reactApplicationContext, AdaModalActivity::class.java)
+      // val params = AdaParameters(
+      //     url = url,
+      //     locale = "en-US"
+      // )
+      // intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+      // intent.putExtra("adaParameters", params)
+
+      // reactApplicationContext.startActivity(intent)
+
+      val msg = "Launched SDK with url: $url"
+      Log.d(AdaSDKModule::class.simpleName, msg)
+      callback.invoke(null, msg)
     
     }
 
